@@ -1,17 +1,15 @@
 ````markdown
 Reconly 🕵️‍♀️ — Automated Bug Bounty Recon That Actually Saves You Time
 
-Built with ❤️ by Cheesecake Technologies**
-
----
+Built with ❤️ by Cheesecake Technologies
 
 ⚡ What is Reconly?
 
-Reconly is your ethical recon buddy. Whether you are a bug bounty hunter burning the midnight oil, or a DevSecOps engineer stuck in endless triage loops, this tool runs your recon automatically — while you sleep, while you eat, or while you scream into the void.
+Reconly is your ethical recon buddy. Whether you are a bug bounty hunter burning the midnight oil,
+or a DevSecOps engineer stuck in endless triage loops, this tool runs your recon automatically — while you sleep,
+while you eat, or while you scream into the void.
 
 No bloated UIs. No snake oil. Just raw, efficient automation that works.
-
----
 
 🔍 Key Features
 
@@ -23,8 +21,6 @@ No bloated UIs. No snake oil. Just raw, efficient automation that works.
 - 📬 Email Summary Reports so you can stay updated without staring at your terminal
 - 💡 Modular — plug in your own tools or use it out of the box
 
----
-
 🎯 Who’s It For?
 
 - 🧑‍💻 Bug Bounty Hunters who want fast results
@@ -32,12 +28,10 @@ No bloated UIs. No snake oil. Just raw, efficient automation that works.
 - 🧠 Learners who want a real-world setup for practice 
 - 🔐 Startups & SMBs with no in-house security — set it, run it, sleep better
 
----
-
 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/reconly.git
+git clone https://github.com/cheesecaketechnologies/reconly.git
 cd reconly
 chmod +x install.sh
 ./install.sh
@@ -67,11 +61,12 @@ Reconly is strictly intended for **authorized, ethical testing**. You must have 
 
 ---
 
-## 📬 Want Updates or Early Access to the Paid SaaS Version?
+📬 Want Updates or Early Access to the Paid SaaS Version?
 
 Follow us on [LinkedIn]([https://linkedin.com/company/14605881]) 
 
 ---
+
 
 ❤️ Support This Project
 
@@ -80,3 +75,5 @@ If Reconly saves you hours — or gets you a bounty — consider:
 * ⭐ Starring this repo
 * ☕ Buying us a coffee (coming soon)
 * 🧠 Sharing your feedback, issues, and PRs
+---
+
