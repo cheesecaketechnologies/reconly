@@ -1,50 +1,41 @@
-````markdown
-Reconly 🕵️‍♀️ — Automated Bug Bounty Recon That Actually Saves You Time
-
+Reconly 🕵️‍♀️ — Automated Bug Bounty Recon That Actually Saves You Time  
 Built with ❤️ by Cheesecake Technologies
 
 ⚡ What is Reconly?
 
-Reconly is your ethical recon buddy. Whether you are a bug bounty hunter burning the midnight oil,
-or a DevSecOps engineer stuck in endless triage loops, this tool runs your recon automatically — while you sleep,
+Reconly is your ethical recon buddy. Whether you're a bug bounty hunter burning the midnight oil,  
+or a DevSecOps engineer stuck in endless triage loops, this tool runs recon automatically — while you sleep,  
 while you eat, or while you scream into the void.
 
 No bloated UIs. No snake oil. Just raw, efficient automation that works.
 
 🔍 Key Features
 
-- 🔗 Automated Subdomain Enumeration using trusted tools (`subfinder`, `amass`, `dnsx`, etc.)
-- 🔑 GitHub Dorking + Secrets Detection (fast scans with regex and GitHub API)
-- 🌐 Scope-Safe Recon Only — you define, it obeys
-- 🎥 Optional PoC Video Generation (for reports or portfolios)
-- 🧠 Smart CVSS Scoring + Custom Risk Labels
-- 📬 Email Summary Reports so you can stay updated without staring at your terminal
-- 💡 Modular — plug in your own tools or use it out of the box
+- 🔗 Automated Subdomain Enumeration (using `subfinder`, `amass`, `dnsx`, and more)  
+- 🔑 GitHub Dorking + Secrets Detection (via GitHub API & regex)  
+- 🌐 Scope-Safe Recon Only — you define the rules, we follow them  
+- 🎥 Optional PoC Video Generation (for reports or bragging rights)  
+- 🧠 Smart CVSS Scoring + Custom Risk Labels  
+- 📬 Email Summary Reports to keep you informed without hogging your terminal  
+- 💡 Modular — use it out of the box, or plug in your favorite tools  
 
 🎯 Who’s It For?
 
-- 🧑‍💻 Bug Bounty Hunters who want fast results
-- 🛡️ DevSecOps Teams who need recon pipelines, not chaos
-- 🧠 Learners who want a real-world setup for practice 
-- 🔐 Startups & SMBs with no in-house security — set it, run it, sleep better
+- 🧑‍💻 Bug Bounty Hunters who want faster, cleaner output  
+- 🛡️ DevSecOps Teams that need structured pipelines, not chaos  
+- 🧠 Learners looking for a practical recon setup  
+- 🔐 Startups & SMBs without in-house security — set it up and sleep better  
 
 📦 Installation
 
-# Clone the repo
+```bash
 git clone https://github.com/cheesecaketechnologies/reconly.git
-
-# Navigate into the project directory
 cd reconly
-
-# Make scripts executable
 chmod +x install.sh reconly.sh
-
-# Run the installer (installs dependencies)
 ./install.sh
+```
 
-*Dependencies: Kali Linux or Debian-based OS, Go tools, Python 3, SMTP for email*
-
----
+🛠️ Requirements: Kali Linux or any Debian-based OS, Go (1.20+), Python 3, and `sendmail` or `msmtp` for email support.
 
 🚀 Usage
 
@@ -52,33 +43,35 @@ chmod +x install.sh reconly.sh
 ./reconly.sh -d target.com -o /path/to/output -e your@email.com
 ```
 
+Flags explained:  
+- `-d` → Target domain (e.g. example.com)  
+- `-o` → Output directory  
+- `-e` → Your email address to receive reports (optional)
+
 Or just:
 
 ```bash
 make it dance 🕺
 ```
 
----
+🕺 This is just a fun way to say: automate recon like a boss.
 
 ⚠️ Legal Notice
 
-Reconly is strictly intended for **authorized, ethical testing**. You must have explicit permission to test the targets you are scanning. Cheesecake Technologies is not responsible for misuse.
+Reconly is strictly for authorized, ethical testing only.  
+You must have explicit permission to scan the targets you're testing.  
+Cheesecake Technologies is not responsible for misuse or illegal activity.
 
----
+📬 Stay in the Loop
 
-📬 Want Updates or Early Access to the Paid SaaS Version?
-
-Follow us on [LinkedIn]([https://linkedin.com/company/14605881]) 
-
----
-
+Get updates and early access to the paid SaaS version:  
+Follow us on LinkedIn → https://linkedin.com/company/14605881
 
 ❤️ Support This Project
 
-If Reconly saves you hours — or gets you a bounty — consider:
+If Reconly saved you hours — or landed you a bounty — consider:  
+- ⭐ Starring this repo  
+- ☕ Buying us a coffee (coming soon)  
+- 🧠 Opening an issue or submitting a PR  
 
-* ⭐ Starring this repo
-* ☕ Buying us a coffee (coming soon)
-* 🧠 Sharing your feedback, issues, and PRs
----
-
+Built to help ethical hackers automate more, worry less, and earn faster.
