@@ -65,7 +65,7 @@ Cheesecake Technologies is not responsible for misuse or illegal activity.
 📬 Stay in the Loop
 
 Get updates and early access to the paid SaaS version:  
-Follow us on LinkedIn → https://linkedin.com/company/14605881
+[Follow us on LinkedIn](https://linkedin.com/company/14605881)
 
 ❤️ Support This Project
 
