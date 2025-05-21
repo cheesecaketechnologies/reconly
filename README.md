@@ -1,40 +1,40 @@
 ````markdown
-# Reconly 🕵️‍♀️ — Automated Bug Bounty Recon That *Actually* Saves You Time
+Reconly 🕵️‍♀️ — Automated Bug Bounty Recon That Actually Saves You Time
 
-**Built with ❤️ by [Nishargo](https://github.com/yourusername) • Powered by Cheesecake Technologies**
+Built with ❤️ by Cheesecake Technologies**
 
 ---
 
-## ⚡ What is Reconly?
+⚡ What is Reconly?
 
-Reconly is your **ethical recon buddy**. Whether you’re a bug bounty hunter burning the midnight oil, or a DevSecOps engineer stuck in endless triage loops, this tool runs your recon **automatically** — while you sleep, while you eat, or while you scream into the void.
+Reconly is your ethical recon buddy. Whether you are a bug bounty hunter burning the midnight oil, or a DevSecOps engineer stuck in endless triage loops, this tool runs your recon automatically — while you sleep, while you eat, or while you scream into the void.
 
 No bloated UIs. No snake oil. Just raw, efficient automation that works.
 
 ---
 
-## 🔍 Key Features
+🔍 Key Features
 
-- 🔗 **Automated Subdomain Enumeration** using trusted tools (`subfinder`, `amass`, `dnsx`, etc.)
-- 🔑 **GitHub Dorking + Secrets Detection** (fast scans with regex and GitHub API)
-- 🌐 **Scope-Safe Recon Only** — you define, it obeys
-- 🎥 **Optional PoC Video Generation** (for reports or portfolios)
-- 🧠 **Smart CVSS Scoring + Custom Risk Labels**
-- 📬 **Email Summary Reports** so you can stay updated without staring at your terminal
-- 💡 **Modular** — plug in your own tools or use it out of the box
-
----
-
-## 🎯 Who’s It For?
-
-- 🧑‍💻 **Bug Bounty Hunters** who want results fast
-- 🛡️ **DevSecOps Teams** who need recon pipelines, not chaos
-- 🧠 **Learners** who want a real-world setup to practice with
-- 🔐 **Startups & SMBs** with no in-house security — set it, run it, sleep better
+- 🔗 Automated Subdomain Enumeration using trusted tools (`subfinder`, `amass`, `dnsx`, etc.)
+- 🔑 GitHub Dorking + Secrets Detection (fast scans with regex and GitHub API)
+- 🌐 Scope-Safe Recon Only — you define, it obeys
+- 🎥 Optional PoC Video Generation (for reports or portfolios)
+- 🧠 Smart CVSS Scoring + Custom Risk Labels
+- 📬 Email Summary Reports so you can stay updated without staring at your terminal
+- 💡 Modular — plug in your own tools or use it out of the box
 
 ---
 
-## 📦 Installation
+🎯 Who’s It For?
+
+- 🧑‍💻 Bug Bounty Hunters who want fast results
+- 🛡️ DevSecOps Teams who need recon pipelines, not chaos
+- 🧠 Learners who want a real-world setup for practice 
+- 🔐 Startups & SMBs with no in-house security — set it, run it, sleep better
+
+---
+
+📦 Installation
 
 ```bash
 git clone https://github.com/yourusername/reconly.git
@@ -47,7 +47,7 @@ chmod +x install.sh
 
 ---
 
-## 🚀 Usage
+🚀 Usage
 
 ```bash
 ./reconly.sh -d target.com -o /output/dir -e your@email.com
@@ -61,7 +61,7 @@ make it dance 🕺
 
 ---
 
-## ⚠️ Legal Notice
+⚠️ Legal Notice
 
 Reconly is strictly intended for **authorized, ethical testing**. You must have explicit permission to test the targets you are scanning. Cheesecake Technologies is not responsible for misuse.
 
@@ -69,14 +69,14 @@ Reconly is strictly intended for **authorized, ethical testing**. You must have 
 
 ## 📬 Want Updates or Early Access to the Paid SaaS Version?
 
-Follow us on [LinkedIn]([https://linkedin.com/company/14605881]) — or just drop me an email. I’m human.
+Follow us on [LinkedIn]([https://linkedin.com/company/14605881]) 
 
 ---
 
-## ❤️ Support This Project
+❤️ Support This Project
 
 If Reconly saves you hours — or gets you a bounty — consider:
 
 * ⭐ Starring this repo
-* ☕ Buying me a coffee (coming soon)
+* ☕ Buying us a coffee (coming soon)
 * 🧠 Sharing your feedback, issues, and PRs
