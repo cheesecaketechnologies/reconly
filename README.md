@@ -30,12 +30,17 @@ No bloated UIs. No snake oil. Just raw, efficient automation that works.
 
 📦 Installation
 
-```bash
+# Clone the repo
 git clone https://github.com/cheesecaketechnologies/reconly.git
+
+# Navigate into the project directory
 cd reconly
-chmod +x install.sh
+
+# Make scripts executable
+chmod +x install.sh reconly.sh
+
+# Run the installer (installs dependencies)
 ./install.sh
-````
 
 *Dependencies: Kali Linux or Debian-based OS, Go tools, Python 3, SMTP for email*
 
@@ -44,7 +49,7 @@ chmod +x install.sh
 🚀 Usage
 
 ```bash
-./reconly.sh -d target.com -o /output/dir -e your@email.com
+./reconly.sh -d target.com -o /path/to/output -e your@email.com
 ```
 
 Or just:
