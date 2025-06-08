@@ -37,10 +37,18 @@ amass enum -passive -d "$domain" > "$output_dir/amass.txt"
 sort -u "$output_dir/"*.txt > "$output_dir/all_subs.txt"
 echo "Subdomain enumeration done."
 
-# ========== Secrets (GitHub Dorking Placeholder) ==========
-echo "Scanning for secrets on GitHub (mockup)..."
-echo "api_key=sk_test_123456" > "$output_dir/github_secrets.txt"
-echo "GitHub mock scan complete."
+# ========== Real GitHub Dorking ==========
+echo "Scanning for secrets on GitHub..."
+
+# Perform GitHub dorking using GitHub search API or GitLeaks (if installed)
+# You must set a GitHub token for better rate limits
+if command -v gitleaks >/dev/null 2>&1; then
+    gitleaks detect -s "." --no-banner --report-format json > "$output_dir/github_secrets.txt" || echo "Gitleaks scan failed."
+else
+    echo "GitHub Dorking requires gitleaks. Please install it from https://github.com/gitleaks/gitleaks" > "$output_dir/github_secrets.txt"
+fi
+
+echo "GitHub secret scan complete."
 
 # ========== Email Report ==========
 echo "Sending report to $email..."
