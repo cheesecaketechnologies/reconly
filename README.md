@@ -62,6 +62,12 @@ Reconly is strictly for authorized, ethical testing only.
 You must have explicit permission to scan the targets you're testing.  
 Cheesecake Technologies is not responsible for misuse or illegal activity.
 
+Disclaimer
+
+This tool is intended for use in authorized bug bounty programs only. You must have explicit permission to test and report vulnerabilities on any system you use this tool with. Unauthorized use of this tool on systems without permission may be illegal and could result in criminal or civil penalties.
+
+The authors and contributors of this project are not responsible for any misuse or damage caused by this tool. Always comply with all applicable laws and the terms of any bug bounty program you participate in.
+
 📬 Stay in the Loop
 
 Get updates and early access to the paid SaaS version:  
